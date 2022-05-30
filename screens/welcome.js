@@ -8,6 +8,7 @@ import {
 } from 'react-native';
 import { images, icons } from '../constants'
 import { UIButton } from '../components'
+import Icon from 'react-native-vector-icons/FontAwesome'
 
 function welcome(props) {
     //state => when state is change => UI is reloaded
@@ -60,10 +61,13 @@ function welcome(props) {
                     <Text style={{
                         color: 'white'
                     }}> YourCompany.CO</Text>
-                    <View style={{ flex: 1 }}>
-
-                    </View>
-                    <Icon name = {''}></Icon>
+                    <View style={{ flex: 1 }}/>
+                    <Icon name = {"question-circle"}
+                        size = {15} 
+                        color= 'white'
+                        style = {{
+                        marginEnd: 10
+                    }}/>
                 </View>
 
             </View>

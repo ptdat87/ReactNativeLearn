@@ -33,7 +33,7 @@ function UIButton(props) {
             }} />}
 
         <Text style={{
-            color: '#F57A1C',
+            color: isSelected == true ? '#F57A1C': 'white',
             fontWeight: 'bold'
         }}> {title}</Text>
     </TouchableOpacity>
